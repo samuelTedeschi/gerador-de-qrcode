@@ -1,15 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Qr code</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <div class="container_conteudo">
+            <h1 class="container_title_h1">Gerador de Qr Code</h1>
+            <p class="container_title_p">Cole seu link ou texto</p>
+                <div class="container_imputs">
+                    <textarea maxlength="300" rows="6" class="container_imputs_textarea"></textarea>
+            
+                    <button onclick="gerarQrCode()" class="container_imputs_button">Gerar</button>
+                </div>
+        </div>
+        
+        <img id="qrCodeImagem">
+    </div>
     
+    <!--<footer>Desenvolvido por samuelTedeschi</footer>-->
+
     <script src="script.js"></script>
 </body>
 </html>
