@@ -1,3 +1,10 @@
+/* Color Theme Swatches in Hex */
+.Museum-für-Naturkunde-—-website-redesign-1-hex { color: #F2CA52; }
+.Museum-für-Naturkunde-—-website-redesign-2-hex { color: #F2B749; }
+.Museum-für-Naturkunde-—-website-redesign-3-hex { color: #A68D60; }
+.Museum-für-Naturkunde-—-website-redesign-4-hex { color: #594C34; }
+.Museum-für-Naturkunde-—-website-redesign-5-hex { color: #0D0D0D; }
+
 *{
     font-family: 'Roboto', sans-serif;
     padding: 0;
@@ -5,8 +12,10 @@
     box-sizing: border-box;
 }
 
+
 .container{
-    border: solid 1px darkgoldenrod ;
+    border: solid 1px #594C34;
+    box-shadow: 10px 10px 20px #A68D60;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -25,11 +34,13 @@
 .container_title_h1{
     font-size: 2.5rem;
     margin-bottom: 10px;
+    color: #0D0D0D;
 }
 
 .container_title_p{
     font-size: 1.5rem;
     margin-bottom: 10px;
+    color: #0D0D0D;
 }
 
 .container_imputs{
@@ -39,14 +50,14 @@
 
 .container_imputs_textarea{
     border-style: none;
-    background-color: lightgoldenrodyellow;
+    background-color: #F2CA52;
     border-radius: 8px;
     margin-bottom: 10px;
 }
 
 .container_imputs_button{
     margin-bottom: 10px;
-    background-color: darkorange;
+    background-color: #F2B749;
     border-style: none;
     border-radius: 8px;
     height: 40px;
