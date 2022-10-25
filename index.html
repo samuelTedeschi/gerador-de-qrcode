@@ -16,15 +16,18 @@
     <div class="container">
         <div class="container_conteudo">
             <h1 class="container_title_h1">Gerador de Qr Code</h1>
-            <p class="container_title_p">Cole seu link ou texto</p>
-                <div class="container_imputs">
-                    <textarea maxlength="300" rows="6" class="container_imputs_textarea"></textarea>
-            
+
+            <!--Qr code-->
+            <img id="qrCodeImagem">
+
+            <!--imput-->
+            <div class="container_imputs">
+                    <p class="container_title_p">Cole seu link ou texto abaixo:</p>
+                    <textarea maxlength="300" rows="6" class="container_imputs_textarea" value="cole seu link aqui"></textarea>
                     <button onclick="gerarQrCode()" class="container_imputs_button">Gerar</button>
                 </div>
         </div>
         
-        <img id="qrCodeImagem">
     </div>
     
     <!--<footer>Desenvolvido por samuelTedeschi</footer>-->
