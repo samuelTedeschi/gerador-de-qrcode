@@ -25,7 +25,7 @@ O gerador de QRcode funciona quando você coloca um link ou uma frase no text ar
 <img src="https://img.shields.io/badge/Javascript-05122A?style=flat&logo=javascript" alt="javascript Badge" height="25">&nbsp;
 
 ## Contact
-<a href="https://www.linkedin.com/in/Samuel Tedeschi" target="_blank"><img src="https://img.shields.io/badge/Linkedin-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="25"></a>&nbsp;
+<a href="https://www.linkedin.com/in/samuel-tedeschi" target="_blank"><img src="https://img.shields.io/badge/Linkedin-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="25"></a>&nbsp;
 
 <br clear="left"/>
 
